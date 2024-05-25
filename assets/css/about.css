@@ -1,0 +1,139 @@
+body{
+	font-family: 'Inter', sans-serif;
+	background: #f4f4f4;
+}
+header{
+	background: #F3F3F3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	z-index: 9999;
+}
+
+.container-1{
+	margin: 0 auto;
+	max-width: 1110px;
+}
+.navbar.bg-body-tertiary{
+	background: #F3F3F3 !important;
+}
+.navbar.bg-body-tertiary .container{
+	justify-content: initial;
+}
+.navbar.bg-body-tertiary .navbar-brand{
+	width: 24%;
+}
+.navbar.bg-body-tertiary ul{
+	width: 57%;
+}
+.navbar.bg-body-tertiary ul li{
+	padding-right: 34px;
+}
+.navbar.bg-body-tertiary ul li a{
+	color: #1B1B1B;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 600;
+}
+.navbar.bg-body-tertiary .btn.btn-primary{
+	padding: 12px 32px 12px 32px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: #F0592A;
+    border: none;
+    color: #F3F3F3;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+#main{
+	background-color: #1B1B1B;
+    padding-top: 268px;
+    padding-bottom: 162px;
+    overflow: hidden;
+
+}
+.back-img{
+	position: relative;
+}
+.back-img img{
+	position: absolute;
+	left: 749px;
+    top: -166px;
+}
+.main-content{
+
+}
+.main-content h3{
+	font-size: 56px;
+	line-height: 60px;
+	letter-spacing: -2px;
+	font-weight: 600;
+	color: #F3F3F3;
+}
+#about{
+	padding-top: 132px;
+}
+#about .col-lg-6 img{
+	width: 542.94px;
+	height: 572px;
+}
+#about .col-lg-6 h2{
+	margin-top: 42px;
+	font-size: 36px;
+	line-height: 43.57px;
+	font-weight: 600;
+	color: #1B1B1B;
+	margin-bottom: 25px;
+}
+#about .col-lg-6 p{
+	font-size: 15px;
+	line-height: 26px;
+	color: #737373;
+}
+.number-counter{
+	margin-bottom: 44px;
+}
+.number-counter .col-lg-4 .percentage-sign{
+	margin-top: -42px !important;
+    margin-left: 50px !important;
+    font-size: 36px;
+    line-height: 43.57px;
+    font-weight: 600;
+    color: #1B1B1B;
+    margin-top: 0px;
+}
+.number-counter .col-lg-4 .numscroller{
+	font-size: 36px;
+	line-height: 44px;
+	color: #1B1B1B;
+	font-weight: 600;
+}
+.number-counter .col-lg-4 .plus-sign{
+	margin-top: -45px !important;
+    margin-left: 72px !important;
+    font-size: 36px;
+    line-height: 43.57px;
+    font-weight: 600;
+    color: #1B1B1B;
+    margin-top: 0px;
+
+}
+.number-counter .col-lg-4 h3{
+	color: #737373;
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 500;
+    margin-top: 2px;
+}
+.number-counter .col-lg-4 .row{
+	width: 65%;
+}
